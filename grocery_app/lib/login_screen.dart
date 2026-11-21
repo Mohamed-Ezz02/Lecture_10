@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'app_botton.dart';
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -88,18 +88,13 @@ class LoginScreen extends StatelessWidget {
                 ),
                 
                  SizedBox(height: 20,),
+
                  Align(
                   alignment:Alignment.centerRight,
                   child: Text("Forgot Password?")),
             
                  SizedBox(height: 30,),
-                 InkWell(
-                  onTap: (){
-
-
-                  },
-                   child: Container(
-                  
+                  Container(
                     padding: EdgeInsets.symmetric(vertical: 24.5
                     ),
                     width: double.infinity,
@@ -117,7 +112,7 @@ class LoginScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                 ),
+                 
             
                   SizedBox(height: 25,),
                   Row(
@@ -140,40 +135,4 @@ class LoginScreen extends StatelessWidget {
 ),
     );
   }
-}
-class AppBotton extends StatelessWidget {
-  const new ({
-    super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-
-      onTap: (){},
-
-      child: Container(
-        padding: EdgeInsets.symmetric(vertical: 24.50),
-        width: double.infinity,
-        decoration:BoxDecoration(
-          color: Color(0xff53B175),
-          borderRadius: BorderRadius.circular(19)
-        ),
-          child: Center(
-            child: Text(
-              "Login",
-              style: TextStyle(
-                color: Color(0xffFFF9FF),
-                fontSize: 18,
-                fontWeight: FontWeight.w600,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        )
-
-
-
-    );
-  }
-  
 }
