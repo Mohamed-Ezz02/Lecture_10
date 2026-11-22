@@ -1,17 +1,2 @@
-# grocery_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="767" height="1600" alt="WhatsApp Image 2026-11-22 at 4 01 40 AM" src="https://github.com/user-attachments/assets/cd7101b9-3d49-41dc-b4ae-f2a56abd60c8" />
+<img width="771" height="1600" alt="WhatsApp Image 2026-11-22 at 3 35 25 AM" src="https://github.com/user-attachments/assets/af192e6e-db54-4ce0-a3e1-d21bb58c651a" />
