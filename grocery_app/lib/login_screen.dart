@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'app_botton.dart';
+import 'widgets/app_botton.dart';
+import 'package:grocery_app/screen2.dart';
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -25,7 +26,7 @@ class LoginScreen extends StatelessWidget {
                 
                 Text("Login", style:TextStyle(
               fontSize: 26,
-              fontWeight: FontWeight (600)
+              fontWeight: FontWeight.w600
               ), ), // TextStyle // Text
             
               SizedBox(height:15,),
@@ -102,11 +103,12 @@ class LoginScreen extends StatelessWidget {
                       color: Color(0xff53B175),
                       borderRadius: BorderRadius.circular(19)
                     ),
+                    
                       child: Center(
                         child: Text("Login",
                           style: TextStyle(
                             fontSize: 18,
-                            fontWeight: FontWeight(600),
+                            fontWeight: FontWeight.w600,
                             color: Colors.white,
                           ),
                         ),
@@ -120,12 +122,23 @@ class LoginScreen extends StatelessWidget {
                     children: [
                       Text("Don't have an account?",
                       style: TextStyle(
-                        fontWeight: FontWeight(600),
+                        fontWeight: FontWeight.w600,
                       )
                       ),
-                      Text("Sign Up", style: TextStyle(
-                        color: Color(0xff52B175)
-                      ),)
+                        GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Screen2(),
+                          ),
+                        );
+                      },
+                      
+                      child: Text("Sign Up", style: TextStyle(
+                          color: Color(0xff52B175)
+                        ),),
+                        ),
                     ],
                   )
                   ],
